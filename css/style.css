@@ -5,35 +5,51 @@
 }
 /* header */
 #header {
-    height: 100px;
+    height: 70px;
     width: 100%;
-    background-color: chocolate;
+    background-color: rgb(255, 104, 1);
     position: fixed;
+    z-index: 9999;
     /* debug */
     border: 1px solid;
+
 }
 /* main */
 #container {
+    padding-top: 90px;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* debug */
-    gap: 10px;
+    
 }
 .product {
-    /* debug */
-    height: 550px;
-    width: 30%;
-    border: 1px solid;
-    margin-bottom: 300px;
+    margin-bottom: 9%;
+    width: 32%;
+}
+.product img {
+    max-width: 100%;
+}
+.product-brand {
+    font-size: 15px;
+}
+.product-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+.product-price {
+    color: red
+}
+.product-price::before {
+    content: \20AC;
+
 }
 /* footer */
 #footer {
-    height: 100px;
+    height: 70px;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(25, 25, 25);
     /* debug */
     border: 1px solid;
 }
