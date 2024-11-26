@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: chocolate;
+    position: fixed;
+    /* debug */
+    border: 1px solid;
+}
+/* main */
+#container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* debug */
+    gap: 10px;
+}
+.product {
+    /* debug */
+    height: 550px;
+    width: 30%;
+    border: 1px solid;
+    margin-bottom: 300px;
+}
