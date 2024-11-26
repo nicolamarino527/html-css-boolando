@@ -31,6 +31,15 @@
 .product img {
     max-width: 100%;
 }
+.product-b {
+    display: none;
+}
+.product:hover .product-b {
+    display: block
+}
+.product:hover .product-a {
+    display: none;
+}
 .product-brand {
     font-size: 15px;
 }
