@@ -29,3 +29,11 @@
     border: 1px solid;
     margin-bottom: 300px;
 }
+/* footer */
+#footer {
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    /* debug */
+    border: 1px solid;
+}
