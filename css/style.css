@@ -5,12 +5,35 @@
 }
 /* header */
 #header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
     height: 70px;
     width: 100%;
     background-color: rgb(255, 104, 1);
-    position: fixed;
-    z-index: 9999;
 }
+ol {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    list-style: none;
+}
+li {
+    padding-left: 10%;
+}
+#icons {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    gap: 15px;
+    padding-right: 40px;
+}
+
 /* main */
 #container {
     padding-top: 90px;
@@ -32,32 +55,30 @@
 }
 .product-b {
     display: none;
+    max-width: 100%;
 }
 .product:hover .product-b {
-    display: block
+    display: inline-block;
 }
 .product:hover .product-a {
     display: none;
 }
 /* discount label */
-.discount-label {
+.label {
     font-size: 22px;
     color: #fff;
     border: 1px solid;
     background-color: red;
-    width: 52px;
+    width: 15%;
     position: absolute;
     top: 78%;
 }
-/* .sustain-lable {
-    font-size: 22px;
-    color: #fff;
+.sustain-lable {
     border: 1px solid;
     background-color: green;
-    width: 115px;
-    position: absolute;
+    width: 30%;
     top: 78%;
-} */
+}
 /* descrizioni prodotto */
 .product-brand {
     font-size: 15px;
